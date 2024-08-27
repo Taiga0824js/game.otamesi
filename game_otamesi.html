@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音楽管理サイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>音楽管理サイト</h1>
+    </header>
+    <main>
+        <section id="add-song">
+            <h2>曲を追加</h2>
+            <form id="song-form">
+                <input type="text" id="song-title" placeholder="曲名" required>
+                <textarea id="song-lyrics" placeholder="歌詞" required></textarea>
+                <button type="submit">追加</button>
+            </form>
+        </section>
+        <section id="song-list">
+            <h2>曲の一覧</h2>
+            <ul id="songs"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>音楽サイト</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
